@@ -4,8 +4,28 @@ body {
     font-family: geneva;
 }
 
+.grid-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: deeppink;
+}
+
+.home{
+    color: rgb(254, 234, 237);
+}
+
+.about{
+    color: rgb(254, 234, 237);
+}
+
+.portfolio{
+    color: rgb(254, 234, 237);
+}
+
 h1 {
     text-shadow: 1px 1px 1px deeppink; 
     text-shadow: 4px 2px 2px deeppink;
     font-family: georgia;
+    color: rgb(254, 234, 237);
 }

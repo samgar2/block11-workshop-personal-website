@@ -12,33 +12,57 @@
 <body>
     <!-- main header that is used across all the pages of my website -->
     <header>
-        <h1>Barbie Samantha Lauren</h1>
+        <nav>
+            <div class="grid-wrapper">
+                <a class="home" href="index.html">Home</a>
+                <a class="about" href="about.html">About</a>
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
+        <h1 class="barbiesamanthalauren">Barbie Samantha Lauren</h1>
     </header>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-    </nav>
+    <br>
 
     <!-- page's main content-->
     <main>
         <div class="secondaryheaders">
             <!-- introduce my creative/fun theme and characters -->
-            <h2>She's #.</h2>
+            <h2>This Barbie is a software engineer.</h2>
             <h3>Hi Barbie!</h3>
         </div>
 
         <div class="barbieimage1">
-            <!-- maybe a picture of me instead here -->
+            <!-- pic of barbie -->
             <img style="height: 400px; width: 400px;"
                 src="https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0NDg3NzEyODkwMjM0Mzcz/margot-robbie-barbie-movie-2023.jpg"
                 alt="barbie smiling in the car" />
         </div>
 
         <div class="description">
-            <!-- could be a mission statement, something that defines me, a quote, etc. -->
-            <p>#</p>
+            <!-- mission statement and something that defines me -->
+            <p>She is excited about furthering inclusion and diversity in tech and to help empower young girls and non-binary students to believe that they belong in STEM too.</p>
+
+            <p>"You're braver than you believe, stronger than you seem, and smarter than you think." -Winnie The Pooh</p>
+            <br />
+        </div>
+
+        <div class="contactform">
+            <form action="submitted.html">
+                <h3>Get In Touch</h3>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" placeholder="first name" /><br />
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" /><br />
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" /><br />
+
+                <label for="message">Message:</label>
+                <input type="message" name="message" /><br />
+
+                <input type="submit" value="Submit" /><br /><br />
+            </form>
         </div>
     </main>
 
