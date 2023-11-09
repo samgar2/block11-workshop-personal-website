@@ -4,28 +4,106 @@ body {
     font-family: geneva;
 }
 
-.grid-wrapper{
-    display:grid;
+.grid-wrapper {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: deeppink;
 }
 
-.home{
+.home {
     color: rgb(254, 234, 237);
 }
 
-.about{
+.about {
     color: rgb(254, 234, 237);
 }
 
-.portfolio{
+.portfolio {
     color: rgb(254, 234, 237);
 }
 
 h1 {
-    text-shadow: 1px 1px 1px deeppink; 
+    text-shadow: 1px 1px 1px deeppink;
     text-shadow: 4px 2px 2px deeppink;
     font-family: georgia;
     color: rgb(254, 234, 237);
+}
+
+.soccerheader{
+    display:flex;
+}
+
+.soccersection {
+    display: flex;
+}
+
+.soccerimage {
+    margin: 10px;
+    padding: 5px;
+}
+
+.pianoheader{
+    display:flex;
+}
+
+.pianosection {
+    display: flex;
+}
+
+.pianoimage {
+    margin: 10px;
+    padding: 5px;
+}
+
+.strollheader{
+    display:flex;
+}
+
+.strollsection {
+    display: flex;
+}
+
+.strollimage {
+    margin: 10px;
+    padding: 5px;
+}
+
+.zoosection{
+    display: flex;
+}
+
+.zooheader{
+    display:flex;
+}
+
+.zooimage{
+    margin: 10px;
+    padding: 5px;
+}
+
+.grocerysection{
+    display: flex;
+}
+
+.groceryheader{
+    display:flex;
+}
+
+.groceryimage{
+    margin: 10px;
+    padding: 5px;
+}
+
+.fairysection{
+    display: flex;
+}
+
+.fairyheader {
+    display:flex;
+}
+
+.fairyimage{
+    margin: 10px;
+    padding: 5px;
 }
