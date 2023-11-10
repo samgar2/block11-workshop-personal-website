@@ -51,7 +51,7 @@ h1 {
     width: 1em;
     background-color: rgb(254, 234, 237);
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
     left: 378px;
     top: 34px;
 }
