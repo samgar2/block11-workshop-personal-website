@@ -34,6 +34,28 @@ h1 {
     transition: margin-right 4s;
 }
 
+.circle1{
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background-color: deeppink;
+    border-radius: 50%;
+    z-index: 1;
+    left: 370px;
+    top: 50px;
+}
+
+.circle2{
+    position: relative;
+    height: 1em;
+    width: 1em;
+    background-color: rgb(254, 234, 237);
+    border-radius: 50%;
+    z-index: 1;
+    left: 378px;
+    top: 34px;
+}
+
 .soccerheader{
     display:flex;
 }
