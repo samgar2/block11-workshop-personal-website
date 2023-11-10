@@ -30,6 +30,10 @@ h1 {
     color: rgb(254, 234, 237);
 }
 
+.barbiesamanthalauren{
+    transition: margin-right 4s;
+}
+
 .soccerheader{
     display:flex;
 }
